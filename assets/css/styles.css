@@ -19,28 +19,25 @@ h1 {
   color: #ffffff;
   background-color: #5474b6;
   font-weight: 700; /* bold */
-  margin-bottom: 0.5em;
 }
 h2 {
   font-family: "FilsonPro", sans-serif;
   font-size: 2em;
-  text-transform: uppercase;
   color: #ffffff;
   background-color: #f26e44;
   font-weight: 700; /* bold */
-  padding-top: 0.5em;
-  margin-top: 10px;
   text-align: center;
+  padding-top: 10px;
+  margin-top: 11px;
 }
 h4 {
   font-family: "FilsonPro", sans-serif;
   font-size: 0.75em;
-  text-transform: uppercase;
   color: #ffffff;
   background-color: #f26e44;
-  padding-bottom: 1em;
-  margin-bottom: 10px;
   text-align: center;
+  padding-bottom: 10px;
+  margin-bottom: 11px;
 }
 
 /* HEADER */
@@ -56,18 +53,18 @@ nav img {
 /* MAIN */
 main section a img {
   display: flex;
-  align-items: center;
-  
   /* justifycontent centre?? */
 }
 
 main section:nth-of-type(2) {
   display: flex;
   justify-content: space-between;
+  /* knoppen boven op ander pagina met id? */
 }
 
 main section div img {
   height: 90px;
+  margin-top: 11px;
 }
 
 /* FOOTER */
@@ -78,13 +75,15 @@ footer > ul {
   justify-content: space-evenly;
   background-color: #5474b6;
   list-style-type: none;
-  margin-top: 10px;
+  padding: 5px;
+  margin-top: 11px;
 }
-
+/* iets met parent nu heb ik alleen parent gdn */
 /* icon */
 
 footer ul li a img {
   display: block;
-  height: 25px;
-  margin: 10px;
+  /* waarvoor was dit ookal weer */
+  height: 28px;
+  margin: 15px;
 }
