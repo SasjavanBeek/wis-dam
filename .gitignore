@@ -1,2 +1,5 @@
 # Files to ignore
 pdf/*
+assets/pdf
+.DS_Store
+*/.DS_Store
