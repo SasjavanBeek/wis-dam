@@ -17,6 +17,33 @@
    Ook zorgen we dat voor alle block elementen de afmetingen niet alleen worden bepaald door de content, maar dat ook padding en border meetellen. 
    Dit ontwerpt makkelijker.
    Zie: https://www.internetingishard.com/html-and-css/css-box-model/#content-boxes-and-border-boxes  */
+
+/* We gebruiken in HTML een <blockquote> tag om een citaat weer te geven en stylen dit als tegeltje. De truc hierbij is om een border-image op te geven. 
+   Dit plaatje bestaat uit 9 vlakjes, voor elke kant van het tegeltje: links, rechts, boven, onder, midden en de vier hoeken. 
+   Voor meer info, zie bijvoorbeeld:
+   https://www.w3schools.com/css/css3_border_images.asp
+   https://developer.mozilla.org/en-US/docs/Web/CSS/border-image    */
+
+blockquote {
+  font-family: "FilsonPro", sans-serif;
+  font-size: 1.4em;
+  color: #0c1e32;
+  font-weight: 500; /* ietsje dikker dan normaal, maar minder dik dan bold */
+  text-align: center;
+  width: 335px;
+  height: 335px;
+  padding-top: 80px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: 1.8em auto 1.8em auto;
+  border: 1px solid transparent; /* Eerst een standaard border aanzetten. Deze zie je als het plaatje niet mocht werken (of niet, want transparant) */
+  border-image-source: url(../images/hoekjes.png); /* de border-image bestaat uit 9 vlakjes */
+  border-image-width: 100px; /* we willen de border 100px groot */
+  border-image-slice: 100; /* het plaatje wordt in 9 stukken geknipt: het totale plaatje is 300x300 en elk gedeelte (vlakje) van de border is 100x100 */
+}
+
+/* begin self */
+/* tekst */
 *,
 html {
   padding: 0px;
@@ -67,35 +94,8 @@ a {
   color: #eb4f75;
 }
 
-/* We gebruiken in HTML een <blockquote> tag om een citaat weer te geven en stylen dit als tegeltje. De truc hierbij is om een border-image op te geven. 
-   Dit plaatje bestaat uit 9 vlakjes, voor elke kant van het tegeltje: links, rechts, boven, onder, midden en de vier hoeken. 
-   Voor meer info, zie bijvoorbeeld:
-   https://www.w3schools.com/css/css3_border_images.asp
-   https://developer.mozilla.org/en-US/docs/Web/CSS/border-image    */
-
-blockquote {
-  font-family: "FilsonPro", sans-serif;
-  font-size: 1.4em;
-  color: #0c1e32;
-  font-weight: 500; /* ietsje dikker dan normaal, maar minder dik dan bold */
-  text-align: center;
-  width: 335px;
-  height: 335px;
-  padding-top: 80px;
-  padding-left: 40px;
-  padding-right: 40px;
-  margin: 1.8em auto 1.8em auto;
-  border: 1px solid transparent; /* Eerst een standaard border aanzetten. Deze zie je als het plaatje niet mocht werken (of niet, want transparant) */
-  border-image-source: url(../images/hoekjes.png); /* de border-image bestaat uit 9 vlakjes */
-  border-image-width: 100px; /* we willen de border 100px groot */
-  border-image-slice: 100; /* het plaatje wordt in 9 stukken geknipt: het totale plaatje is 300x300 en elk gedeelte (vlakje) van de border is 100x100 */
-}
-
-/* begin self */
-
 /* FOOTER*/
 footer {
-  position: relative;
   display: flex;
   justify-content: end;
   justify-content: space-evenly;

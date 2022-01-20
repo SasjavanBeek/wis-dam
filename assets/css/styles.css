@@ -1,0 +1,90 @@
+@font-face {
+  font-family: "FilsonPro";
+  src: url("../fonts/FilsonProRegular.otf");
+  font-style: normal;
+  font-weight: 300;
+}
+
+*,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "FilsonPro", sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #5474b6;
+  font-weight: 700; /* bold */
+  margin-bottom: 0.5em;
+}
+h2 {
+  font-family: "FilsonPro", sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #f26e44;
+  font-weight: 700; /* bold */
+  padding-top: 0.5em;
+  margin-top: 10px;
+  text-align: center;
+}
+h4 {
+  font-family: "FilsonPro", sans-serif;
+  font-size: 0.75em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #f26e44;
+  padding-bottom: 1em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* HEADER */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav img {
+  height: 70px;
+}
+
+/* MAIN */
+main section a img {
+  display: flex;
+  align-items: center;
+  
+  /* justifycontent centre?? */
+}
+
+main section:nth-of-type(2) {
+  display: flex;
+  justify-content: space-between;
+}
+
+main section div img {
+  height: 90px;
+}
+
+/* FOOTER */
+
+/* naast elkaar */
+footer > ul {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #5474b6;
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+/* icon */
+
+footer ul li a img {
+  display: block;
+  height: 25px;
+  margin: 10px;
+}
