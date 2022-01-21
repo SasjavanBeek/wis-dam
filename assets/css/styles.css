@@ -38,8 +38,24 @@ h4 {
   text-align: center;
   padding-bottom: 10px;
   margin-bottom: 11px;
+  margin-top: -2px;
+  font-style: italic;
 }
-
+em {
+  font-style: normal;
+}
+h3 {
+  font-family: "FilsonPro", sans-serif;
+  font-size: 1em;
+  color: #000000;
+  margin: auto;
+}
+h5 {
+  font-family: "FilsonPro", sans-serif;
+  font-size: 0.5em;
+  color: #000000;
+  font-style: italic;
+}
 /* HEADER */
 
 nav {
@@ -51,18 +67,23 @@ nav img {
 }
 
 /* MAIN */
-main section a img {
-  display: flex;
-  /* justifycontent centre?? */
+main .challenge {
+  background-image: url("../images/backgroundimg.png");
+  height: 60vh;
 }
 
-main section:nth-of-type(2) {
+main section img {
+  margin: auto;
+  height: 10vh;
+}
+
+main footer {
   display: flex;
   justify-content: space-between;
   /* knoppen boven op ander pagina met id? */
 }
 
-main section div img {
+main footer img {
   height: 90px;
   margin-top: 11px;
 }
