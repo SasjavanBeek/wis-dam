@@ -15,14 +15,6 @@ html {
 h1 {
   font-family: "FilsonPro", sans-serif;
   font-size: 2em;
-  text-transform: uppercase;
-  color: #ffffff;
-  background-color: #5474b6;
-  font-weight: 700; /* bold */
-}
-h2 {
-  font-family: "FilsonPro", sans-serif;
-  font-size: 2em;
   color: #ffffff;
   background-color: #f26e44;
   font-weight: 700; /* bold */
@@ -30,7 +22,7 @@ h2 {
   padding-top: 10px;
   margin-top: 11px;
 }
-h4 {
+h2 {
   font-family: "FilsonPro", sans-serif;
   font-size: 0.75em;
   color: #ffffff;
@@ -48,13 +40,23 @@ h3 {
   font-family: "FilsonPro", sans-serif;
   font-size: 1em;
   color: #000000;
-  margin: auto;
+  margin: 10px;
+  margin-left: 120px;
+  margin-right: 100px;
+}
+p {
+  font-family: "FilsonPro", sans-serif;
+  font-size: 0.75em;
+  color: #000000;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 h5 {
   font-family: "FilsonPro", sans-serif;
-  font-size: 0.5em;
-  color: #000000;
-  font-style: italic;
+  font-size: 1em;
+  color: #fff;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 /* HEADER */
 
@@ -67,16 +69,94 @@ nav img {
 }
 
 /* MAIN */
+/* home */
+main .home {
+  background-image: url("../images/backgroundimghome.png");
+  height: 60vh;
+}
+main .home h3 {
+  font-family: "FilsonPro", sans-serif;
+  font-size: 1em;
+  color: #fff;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+main .home a {
+  font-family: "FilsonPro", sans-serif;
+  font-size: 0.75em;
+  color: #5474b6;
+}
+main .home a img {
+  background-color: #fff;
+}
+/* achallengeaday */
+main .acad {
+  background-image: url("../images/backgroundimgacad.png");
+  height: 60vh;
+}
+/* challenge */
 main .challenge {
-  background-image: url("../images/backgroundimg.png");
+  background-image: url("../images/backgroundimgchallenge.png");
+  height: 60vh;
+}
+/* accepted */
+main .accepted {
+  background-image: url("../images/backgroundimgaccepted.png");
+  height: 60vh;
+}
+/* accomplished */
+main .accomplished {
+  background-image: url("../images/accomplished1.png");
+  height: 60vh;
+}
+main .building {
+  background-image: url("../images/building.png");
   height: 60vh;
 }
 
+/* inhoud foto */
 main section img {
-  margin: auto;
-  height: 10vh;
+  margin-top: 30px;
+  margin-left: 110px;
+  height: 15vh;
+}
+/* button */
+main section a {
+  background-color: #fff;
+  font-family: "FilsonPro", sans-serif;
+  font-size: 0.75em;
+  color: #5474b6;
+}
+main section a img {
+  background-color: #ffffff;
+  height: 3vh;
+}
+/* rest ongeprogrammeerder foto's */
+main img {
+  height: 100%;
+}
+/* accepted */
+main .accepted h3 {
+  margin-left: 10px;
+  margin-right: 200px;
+  /* margin-top: px; */
+  color: #5474b6;
+}
+main .accepted p {
+  margin-left: 35px;
+  font-size: 1em;
+  color: #fff;
 }
 
+main .accepted img {
+  height: 20vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 35px;
+}
+
+/* mainfooter */
 main footer {
   display: flex;
   justify-content: space-between;
