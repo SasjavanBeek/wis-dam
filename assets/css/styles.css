@@ -73,6 +73,7 @@ nav img {
 main .home {
   background-image: url("../images/backgroundimghome.png");
   height: 60vh;
+  background-repeat: no-repeat;
 }
 /* witte text */
 main section h3 {
