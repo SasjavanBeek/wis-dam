@@ -11,7 +11,15 @@ html {
   margin: 0;
   box-sizing: border-box;
 }
+/* HEADER */
 
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav img {
+  height: 70px;
+}
 h1 {
   font-family: "FilsonPro", sans-serif;
   font-size: 2em;
@@ -36,46 +44,7 @@ h2 {
 em {
   font-style: normal;
 }
-/* h3 {
-  font-family: "FilsonPro", sans-serif;
-  font-size: 1em;
-  color: #000000;
-  margin: 10px;
-  margin-left: 120px;
-  margin-right: 100px;
-}
-p {
-  font-family: "FilsonPro", sans-serif;
-  font-size: 0.75em;
-  color: #000000;
-  margin-left: 100px;
-  margin-right: 100px;
-}
-h5 {
-  font-family: "FilsonPro", sans-serif;
-  font-size: 1em;
-  color: #fff;
-  margin-left: 100px;
-  margin-right: 100px;
-} */
-/* HEADER */
-
-nav {
-  display: flex;
-  justify-content: space-between;
-}
-nav img {
-  height: 70px;
-}
-
-/* MAIN */
-/* home */
-main .home {
-  background-image: url("../images/backgroundimghome.png");
-  height: 60vh;
-  background-repeat: no-repeat;
-}
-/* witte text */
+/* witte text titel section*/
 main section h3 {
   font-family: "FilsonPro", sans-serif;
   font-size: 1.25em;
@@ -83,81 +52,86 @@ main section h3 {
   text-align: center;
   padding-top: 10px;
 }
-/* acceptedicon naast tekst */
-main section h3 > img {
-  height: 5vh;
-}
 /* button */
-main section button {
+main section a {
   background-color: #fff;
-  padding: 15px;
+  padding: 10px;
   color: #5474b6;
-  border-radius: 100px;
+  border-radius: 50px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 275px;
-}
-/* text in button */
-main section a {
+  margin-top: 225px;
+  width: 15em;
+  /* tekst in link */
+  text-align: center;
   font-family: "FilsonPro", sans-serif;
-  font-size: 1.5em;
+  font-size: 1em;
   color: #5474b6;
   text-decoration: none;
 }
-/* shuffleicon */
+/* button shuffleicon */
 main section a img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 0;
   height: 3vh;
-}
-/* inhoudfoto in challenge card */
-main .challenge > img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  /* naar benedennn */
-  border-radius: 10px;
+  margin: auto;
+}
+/* mainfooter */
+main footer {
+  display: flex;
+  justify-content: space-between;
 }
 
-/* achallengeaday */
-main .acad {
-  background-image: url("../images/backgroundimgacad.png");
-  height: 60vh;
+main footer img {
+  height: 90px;
+  margin-top: 11px;
 }
-/* challenge */
+main footer a {
+  font-family: "FilsonPro", sans-serif;
+  font-size: 0.75em;
+  text-align: center;
+  color: #000;
+
+  /* in foto */
+}
+/* acad */
+/* acceptedicon naast tekst */
+main section h3 > img {
+  height: 3vh;
+}
+/* challengecard */
+/* backgroundimg*/
 main .challenge {
   background-image: url("../images/backgroundimgchallenge.png");
   height: 60vh;
 }
+/* inhoudfoto in challenge card */
+main .challenge > img {
+  height: 15vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* naar beneden */
+  border-radius: 10px;
+}
+
 main .challenge h3 {
   font-family: "FilsonPro", sans-serif;
-  font-size: 1em;
+  font-size: 0.95em;
   color: #5474b6;
   margin-left: 80px;
-  margin-right: 100px;
+  margin-right: 110px;
 }
-p {
+main .challenge p {
   font-family: "FilsonPro", sans-serif;
   font-size: 0.7em;
   color: #000000;
   margin-left: 100px;
   margin-right: 100px;
 }
-/* inhoud foto */
-main section > img {
-  margin-top: 30px;
-  margin-left: 110px;
-  height: 15vh;
-}
-
-/* rest ongeprogrammeerder foto's */
-main img {
-  height: 100%;
-}
 /* accepted */
+/* backgroundimg */
 main .accepted {
   background-image: url("../images/backgroundimgaccepted.png");
 }
@@ -165,13 +139,10 @@ main .accepted {
 main .accepted h3 {
   margin-left: 10px;
   margin-right: 150px;
-  /* margin-top: px; */
   color: #5474b6;
-}
-main .accepted p {
-  margin-left: 35px;
-  font-size: 1em;
-  color: #fff;
+  font-size: 1.1em;
+  text-align: left;
+  /* enter??? */
 }
 
 main .accepted img {
@@ -179,8 +150,47 @@ main .accepted img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 20px;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
 }
+main .accepted p {
+  margin-left: 35px;
+  font-size: 1em;
+  color: #fff;
+  font-family: "FilsonPro", sans-serif;
+}
+
+/* link google maps */
+main .accepted a {
+  font-family: "FilsonPro", sans-serif;
+  color: black;
+  font-size: 0.75em;
+  margin: 10px;
+}
+main .accepted a img {
+  height: 5vh;
+}
+/* heellppp */
+
+/* backgroundimgs */
+/* home */
+main .home {
+  background-image: url("../images/backgroundimghome.png");
+  height: 60vh;
+  background-repeat: no-repeat;
+}
+
+/* achallengeaday */
+main .acad {
+  background-image: url("../images/backgroundimgacad.png");
+  height: 60vh;
+}
+
+/* rest ongeprogrammeerder foto's */
+main img {
+  height: 100%;
+}
+
 /* connections snap niks vn */
 main .connections {
   background-image: url("../images/backgroundimgblanc.png");
@@ -202,20 +212,8 @@ main .connections h3 {
   border-radius: 100px;
   padding-top: 10px;
 }
-/* mainfooter */
-main footer {
-  display: flex;
-  justify-content: space-between;
-  /* knoppen boven op ander pagina met id? */
-}
-
-main footer img {
-  height: 90px;
-  margin-top: 11px;
-}
 
 /* FOOTER */
-
 /* naast elkaar */
 footer > ul {
   display: flex;
@@ -225,9 +223,8 @@ footer > ul {
   padding: 5px;
   margin-top: 11px;
 }
-/* iets met parent nu heb ik alleen parent gdn */
-/* icon */
 
+/* icons */
 footer ul li a img {
   display: block;
   /* waarvoor was dit ookal weer */
