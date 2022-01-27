@@ -52,16 +52,15 @@ main section h3 {
   text-align: center;
   padding-top: 10px;
 }
-/* button */
-main section a {
+/* button home*/
+main .home a {
   background-color: #fff;
   padding: 10px;
-  color: #5474b6;
   border-radius: 50px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 225px;
+  margin-top: 245px;
   width: 15em;
   /* tekst in link */
   text-align: center;
@@ -70,8 +69,63 @@ main section a {
   color: #5474b6;
   text-decoration: none;
 }
+/* class voor ander epagina */
 /* button shuffleicon */
-main section a img {
+main .home a img {
+  margin-top: 0;
+  height: 3vh;
+  display: block;
+  margin: auto;
+}
+/* button acad */
+main .acad a {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 300px;
+  width: 15em;
+  /* tekst in link */
+  text-align: center;
+  font-family: "FilsonPro", sans-serif;
+  font-size: 1em;
+  color: #5474b6;
+  text-decoration: none;
+}
+main .acad a img {
+  margin-top: 0;
+  height: 3vh;
+  display: block;
+  margin: auto;
+}
+/* button challenge */
+main .challenge a {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  width: 15em;
+  /* tekst in link */
+  text-align: center;
+  font-family: "FilsonPro", sans-serif;
+  font-size: 1em;
+  color: #5474b6;
+  text-decoration: none;
+}
+main .challenge a img {
+  margin-top: 0;
+  height: 3vh;
+  display: block;
+  margin: auto;
+}
+/* class voor ander epagina */
+/* button shuffleicon */
+main .acad a img {
   margin-top: 0;
   height: 3vh;
   display: block;
@@ -85,26 +139,33 @@ main footer {
 
 main footer img {
   height: 90px;
-  margin-top: 11px;
+  margin-top: 15px;
 }
 main footer a {
   font-family: "FilsonPro", sans-serif;
-  font-size: 0.75em;
+  font-size: 0.6em;
   text-align: center;
-  color: #000;
-
-  /* in foto */
+  color: #5474b6;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 100000;
+  margin: 0;
 }
+
+/* in foto */
+
 /* acad */
 /* acceptedicon naast tekst */
 main section h3 > img {
   height: 3vh;
 }
+
 /* challengecard */
 /* backgroundimg*/
 main .challenge {
   background-image: url("../images/backgroundimgchallenge.png");
   height: 60vh;
+  padding-top: 3em;
 }
 /* inhoudfoto in challenge card */
 main .challenge > img {
@@ -112,7 +173,6 @@ main .challenge > img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  /* naar beneden */
   border-radius: 10px;
 }
 
@@ -120,7 +180,7 @@ main .challenge h3 {
   font-family: "FilsonPro", sans-serif;
   font-size: 0.95em;
   color: #5474b6;
-  margin-left: 80px;
+  margin-left: 90px;
   margin-right: 110px;
 }
 main .challenge p {
@@ -130,6 +190,24 @@ main .challenge p {
   margin-left: 100px;
   margin-right: 100px;
 }
+/* filter */
+/* parent */
+.filter {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.filterpage {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.backbutton {
+  position: absolute;
+  top: 72.5vh;
+}
+/* instructie van:https://stackoverflow.com/questions/48474/how-do-i-position-one-image-on-top-of-another-in-html  */
+
 /* accepted */
 /* backgroundimg */
 main .accepted {
@@ -142,7 +220,6 @@ main .accepted h3 {
   color: #5474b6;
   font-size: 1.1em;
   text-align: left;
-  /* enter??? */
 }
 
 main .accepted img {
@@ -164,11 +241,14 @@ main .accepted p {
 main .accepted a {
   font-family: "FilsonPro", sans-serif;
   color: black;
-  font-size: 0.75em;
+  font-size: 0.8em;
   margin: 10px;
+  margin-left: 20px;
 }
 main .accepted a img {
   height: 5vh;
+  margin: 10px;
+  display: inline-block;
 }
 /* heellppp */
 
