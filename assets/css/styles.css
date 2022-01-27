@@ -54,7 +54,9 @@ main section h3 {
 }
 /* button home*/
 main .home a {
-  background-color: #fff;
+  background-color: rgb(162, 244, 234);
+  border-color: white;
+  border-style: solid;
   padding: 10px;
   border-radius: 50px;
   display: block;
@@ -66,7 +68,7 @@ main .home a {
   text-align: center;
   font-family: "FilsonPro", sans-serif;
   font-size: 1em;
-  color: #5474b6;
+  color: #000;
   text-decoration: none;
 }
 /* class voor ander epagina */
@@ -79,9 +81,11 @@ main .home a img {
 }
 /* button acad */
 main .acad a {
-  background-color: #fff;
+  background-color: rgb(162, 244, 234);
   padding: 10px;
   border-radius: 50px;
+  border-color: white;
+  border-style: solid;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -91,7 +95,7 @@ main .acad a {
   text-align: center;
   font-family: "FilsonPro", sans-serif;
   font-size: 1em;
-  color: #5474b6;
+  color: #000;
   text-decoration: none;
 }
 main .acad a img {
@@ -102,7 +106,9 @@ main .acad a img {
 }
 /* button challenge */
 main .challenge a {
-  background-color: #fff;
+  background-color: rgb(162, 244, 234);
+  border-color: white;
+  border-style: solid;
   padding: 10px;
   border-radius: 50px;
   display: block;
@@ -114,7 +120,7 @@ main .challenge a {
   text-align: center;
   font-family: "FilsonPro", sans-serif;
   font-size: 1em;
-  color: #5474b6;
+  color: #000;
   text-decoration: none;
 }
 main .challenge a img {
@@ -148,7 +154,7 @@ main footer a {
   color: #5474b6;
   text-transform: uppercase;
   text-decoration: none;
-  font-weight: 100000;
+  font-weight: 1000;
   margin: 0;
 }
 
@@ -244,6 +250,8 @@ main .accepted a {
   font-size: 0.8em;
   margin: 10px;
   margin-left: 20px;
+  display: flex;
+  align-items: baseline;
 }
 main .accepted a img {
   height: 5vh;
@@ -277,11 +285,13 @@ main .connections {
 }
 main .connections ul {
   display: flex;
+  align-items: baseline;
   list-style-type: none;
 }
 main .connections ul img {
   height: 5vh;
   border-radius: 100px;
+  margin: 15px;
 }
 main .connections h3 {
   font-family: "FilsonPro", sans-serif;
